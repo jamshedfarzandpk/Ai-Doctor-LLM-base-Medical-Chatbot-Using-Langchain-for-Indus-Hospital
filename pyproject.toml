@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+[project]
+name="medical_chatbot"
+version="0.1.0"
+description="A medical chatbot using Langchain for Indus Hospital"
+authors = [
+  {name = "Jamshed Farzand", email = "jamshed1981pk@gmail.com"},
+]
+maintainers = [
+  {name = "Jamshed Farzand", email = "jamshed1981pk@gmail.com"}
+]
+keywords = ["LLM", "NLP", "RAG Chatbot", "AI Doctor", "Langchain Chatbot", "Medical Chatbot"]
+

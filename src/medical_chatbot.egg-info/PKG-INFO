@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: medical_chatbot
+Version: 0.1.0
+Summary: A medical chatbot using Langchain for Indus Hospital
+Author-email: Jamshed Farzand <jamshed1981pk@gmail.com>
+Maintainer-email: Jamshed Farzand <jamshed1981pk@gmail.com>
+Keywords: LLM,NLP,RAG Chatbot,AI Doctor,Langchain Chatbot,Medical Chatbot

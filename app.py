@@ -32,7 +32,7 @@ try:
     # Create a retrieval chain using the vector store and OpenAI model
     llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.2)
     # Create the retrieval chain with the defined prompts
-    retriever=docsearch.as_retriever(search_type="similarity", search_kwargs={"k": 3})
+    retriever=docsearch.as_retriever(search_type="similarity", search_kwargs={"k": 5})
     prompt = ChatPromptTemplate.from_messages(
         [
             ("system", system_prompt),

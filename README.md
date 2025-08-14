@@ -1,4 +1,4 @@
-# Ai Doctor Medical Assistance with LLM base Medical Chatbot Using Langchain for Indus Hospital
+# Ai Doctor Medical Assistance with LLM/RAG base Medical Chatbot Using Langchain for Indus Hospital With Highest Accuracy RAG
 # How to run?
 ### STEPS:
 
@@ -35,17 +35,21 @@ OPENAI_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 ```bash
 # run the following command to store embeddings to pinecone
-python store_index.py
+python database_process.py
 ```
 
 ```bash
 # Finally run the following command
 python app.py
 ```
+Screenshot of the app:
+![Screenshot](./images/screen.png)
+[See Answer From Book](./images/recording.mkv)
+
 
 Now,
 ```bash
-open up localhost:
+open up localhost:8080 in your browser
 ```
 
 
@@ -92,7 +96,7 @@ open up localhost:
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 315865595366.dkr.ecr.us-east-1.amazonaws.com/medicalbot
+    - Save the URI: 335865575366.dkr.ecr.us-east-1.amazonaws.com/medicalbot
 
 	
 ## 4. Create EC2 machine (Ubuntu) 

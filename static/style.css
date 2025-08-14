@@ -169,6 +169,7 @@ box-shadow:none !important;}
 	color: white;
 	padding: 10px;
 	position: relative;
+	font-size: 14px;
 }
 .msg_cotainer_send{
 	margin-top: auto;
@@ -179,6 +180,7 @@ box-shadow:none !important;}
 	color: #004085;
 	padding: 10px;
 	position: relative;
+	font-size: 14px;
 }
 .msg_time{
 	position: absolute;
